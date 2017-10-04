@@ -4,8 +4,8 @@
     "name": "A",
     "from": "Delhi",
     "to": "New York",
-    "departureTime": "2017-10-04T18:25:43.511Z",
-    "arrivalTime": "2017-10-05T18:25:43.511Z",
+    "departureTime": "2017-10-04T18:05:43.511Z",
+    "arrivalTime": "2017-10-05T08:25:43.511Z",
     "price": "1500"
   },
   {
@@ -14,7 +14,7 @@
     "from": "Delhi",
     "to": "Mumbai",
     "departureTime": "2017-10-07T18:25:43.511Z",
-    "arrivalTime": "2017-10-08T18:25:43.511Z",
+    "arrivalTime": "2017-10-08T09:25:43.511Z",
     "price": "1500"
   },
   {
@@ -22,8 +22,8 @@
     "name": "C",
     "from": "Delhi",
     "to": "New York",
-    "departureTime": "2017-10-09T18:25:43.511Z",
-    "arrivalTime": "2017-10-10T18:25:43.511Z",
+    "departureTime": "2017-10-09T18:55:43.511Z",
+    "arrivalTime": "2017-10-10T10:25:43.511Z",
     "price": "12696"
   },
   {
@@ -31,8 +31,8 @@
     "name": "D",
     "from": "Delhi",
     "to": "Mumbai",
-    "departureTime": "2017-10-04T18:25:43.511Z",
-    "arrivalTime": "2017-10-05T18:25:43.511Z",
+    "departureTime": "2017-10-04T18:45:43.511Z",
+    "arrivalTime": "2017-10-05T11:25:43.511Z",
     "price": "24135"
   },
   {
@@ -40,8 +40,8 @@
     "name": "E",
     "from": "Mumbai",
     "to": "Delhi",
-    "departureTime": "2017-10-05T18:25:43.511Z",
-    "arrivalTime": "2017-10-06T18:25:43.511Z",
+    "departureTime": "2017-10-05T18:35:43.511Z",
+    "arrivalTime": "2017-10-06T01:25:43.511Z",
     "price": "33909"
   },
   {
@@ -50,7 +50,7 @@
     "from": "Mumbai",
     "to": "New York",
     "departureTime": "2017-10-06T18:25:43.511Z",
-    "arrivalTime": "2017-10-07T18:25:43.511Z",
+    "arrivalTime": "2017-10-07T02:25:43.511Z",
     "price": "2823"
   },
   {
@@ -58,8 +58,8 @@
     "name": "G",
     "from": "New York",
     "to": "Delhi",
-    "departureTime": "2017-10-07T18:25:43.511Z",
-    "arrivalTime": "2017-10-08T18:25:43.511Z",
+    "departureTime": "2017-10-07T18:15:43.511Z",
+    "arrivalTime": "2017-10-08T03:25:43.511Z",
     "price": "2948"
   },
   {
@@ -67,8 +67,8 @@
     "name": "H",
     "from": "New York",
     "to": "Mumbai",
-    "departureTime": "2017-10-04T18:25:43.511Z",
-    "arrivalTime": "2017-10-05T18:25:43.511Z",
+    "departureTime": "2017-10-04T18:05:43.511Z",
+    "arrivalTime": "2017-10-05T04:25:43.511Z",
     "price": "4938"
   },
   {
@@ -76,8 +76,8 @@
     "name": "I",
     "from": "Mumbai",
     "to": "New York",
-    "departureTime": "2017-10-05T18:25:43.511Z",
-    "arrivalTime": "2017-10-06T18:25:43.511Z",
+    "departureTime": "2017-10-05T18:55:43.511Z",
+    "arrivalTime": "2017-10-06T05:25:43.511Z",
     "price": "8049"
   },
   {
@@ -85,8 +85,8 @@
     "name": "J",
     "from": "Delhi",
     "to": "New York",
-    "departureTime": "2017-10-07T18:25:43.511Z",
-    "arrivalTime": "2017-10-08T18:25:43.511Z",
+    "departureTime": "2017-10-07T18:45:43.511Z",
+    "arrivalTime": "2017-10-08T06:25:43.511Z",
     "price": "1820"
   },
   {
@@ -94,8 +94,8 @@
     "name": "K",
     "from": "New York",
     "to": "Mumbai",
-    "departureTime": "2017-10-08T18:25:43.511Z",
-    "arrivalTime": "2017-10-09T18:25:43.511Z",
+    "departureTime": "2017-10-08T18:35:43.511Z",
+    "arrivalTime": "2017-10-09T07:25:43.511Z",
     "price": "2049"
   }
 ]

@@ -12,11 +12,12 @@ angular.module('myApp.dashboard', ['ngRoute', 'ui.bootstrap', 'myApp.search.serv
         });
     }]).controller('DashboardCtrl', ['$scope', 'flightSearchService', function ($scope, flightSearchService) {
 
-    $scope.searchFlight = function () {
+    $scope.searchFlight = function (boolean) {
         $scope.search.loaded = false
         $scope.flights=[]
         flightSearchService.searchFlights($scope.search).then(function (data) {
             $scope.search.loaded = true
+            $scope.search.filtered=boolean
             $scope.flights = data;
         })
     }
@@ -32,7 +33,7 @@ angular.module('myApp.dashboard', ['ngRoute', 'ui.bootstrap', 'myApp.search.serv
             depart: "",
             return: ""
         }
-        $scope.searchFlight()
+        $scope.searchFlight(false)
     }
     $scope.reset()
     $scope.dateOptions = {
