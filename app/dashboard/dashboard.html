@@ -1,0 +1,64 @@
+<div class="col-md-12" style="padding-top:20px;">
+    <form ng-submit="searchFlight()">
+        <div class="col-md-3">
+            <div class="form-group">
+                <input required data-ng-model="search.from" type="text" class="form-control"
+                       id="from"
+                       placeholder="From">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <input required data-ng-model="search.to" type="text" class="form-control"
+                   id="to"
+                   placeholder="To">
+        </div>
+        <div class="col-md-2">
+            <input required data-ng-model="search.depart" type="text" class="form-control"
+                   id="depart"
+                   placeholder="Depart" uib-datepicker-popup="dd-MMM-yyyy" ng-click="datepicker('depart')"
+                   is-open="search.opened.depart" datepicker-options="dateOptions">
+        </div>
+        <div ng-if="search.depart" class="col-md-2">
+            <input data-ng-model="search.return" type="text" class="form-control"
+                   id="return"
+                   placeholder="Return" uib-datepicker-popup="dd-MMM-yyyy"  ng-click="datepicker('return')"
+                   is-open="search.opened.return" datepicker-options="dateOptions">
+
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Search" class="btn btn-primary">
+            <input type="button" ng-click="reset()" value="Reset" class="btn btn-secondary">
+        </div>
+    </form>
+
+</div>
+<div class="col-md-12">
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Flight</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Date/Time</th>
+            <th>Fare</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-ng-repeat="flight in flights track by flight.id">
+            <td data-ng-bind="flight.name"></td>
+            <td data-ng-bind="flight.from"></td>
+            <td data-ng-bind="flight.to"></td>
+            <td data-ng-bind="flight.departureTime|date:'dd MMM yyyy HH:mm'"></td>
+            <td data-ng-bind="flight.price">john@example.com</td>
+        </tr>
+        <tr ng-if="flights.length===0 && search.loaded">
+            <td colspan="4">No result found...</td>
+        </tr>
+        <tr ng-if="!search.loaded">
+            <td colspan="4">Loading...</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
